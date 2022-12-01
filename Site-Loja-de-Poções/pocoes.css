@@ -1,0 +1,61 @@
+main{
+    background: black;
+}
+
+.titulo-foda{
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 100px;
+    color: aliceblue;
+    margin-bottom: 0.5em;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    color: aliceblue;
+}
+
+.produtos{
+    width: 940px;
+    margin: 30px auto 0 auto;
+    padding-bottom: 5em;
+}
+
+.produtos img{
+    width: 80%;
+    margin-bottom: 1em;
+}
+
+.produtos ul{
+    margin: 0 auto;
+}
+
+.produtos li{
+    text-align: center;
+    display: inline-block;
+    width: 40%;
+    margin: 0 4.8% 3em 4.8%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 3px solid aliceblue;
+    transition: 400ms;
+    opacity: 0.5;
+}
+
+.produtos li:hover{
+    transform: scale(1.1);
+    border-color: rgb(253, 42, 42);
+    opacity: 1;
+}
+
+.produtos p{
+    font-size: 25px;
+    margin-bottom: 1em;
+    color: aliceblue;
+}
+
+.produtos p+p{
+    font-size: 45px;
+}

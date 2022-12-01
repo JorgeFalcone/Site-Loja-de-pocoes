@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato da Loja de Poções</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contato.css">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+        <header>
+
+            <img src="molduraE.png" class="molduraE">
+            <img src="molduraD.png" class="molduraD">
+    
+            <div class="caixa">
+                <h1><a href="index.html"><img src="logo.png" alt="Logo da Loja de Poções"></a></h1>
+    
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pocoes.html">Poções</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <fieldset class="primeiro">
+                    <label for="nomesobrenome">Nome e classe</label>
+                    <input type="text" id="nomesobrenome" required placeholder="Jorge Guerreiro">
+
+                    <label for="email">Reino eletrônico</label>
+                    <input type="email" id="email" required placeholder="nome@reino.com">
+
+                    <label for="telefone">Número da Coruja Correio</label>
+                    <input type="tel" id="telefone" required placeholder="(x) 12-34">
+
+                    <label for="msg">Seu pedido</label>
+                    <textarea id="msg" cols="50" rows="10"></textarea>
+                </fieldset>
+
+                <fieldset class="escolha">
+                    <legend>Qual poção deseja adquirir?</legend>
+
+                    <label for="radio-poder"><input type="radio" value="Poder" id="radio-poder" name="escolha">Poção de Poder</label>
+
+                    <label for="radio-veneno"><input type="radio" value="Veneno" id="radio-veneno" name="escolha">Poção de Veneno</label>
+
+                    <label for="radio-vida"><input type="radio" value="Vida" id="radio-vida" name="escolha">Poção de Vida</label>
+
+                    <label for="radio-mana"><input type="radio" value="Mana" id="radio-mana" name="escolha">Poção de Mana</label>
+
+                </fieldset>
+
+                <fieldset class="concentracao">
+                    <legend>Qual a concentração de magia desejada na sua poção?</legend>
+
+                    <select>
+                        <option>25% de concentração</option>
+                        <option>50% de concentração</option>
+                        <option>75% de concentração</option>
+                        <option>90% de concentração</option>
+                    </select>
+                </fieldset>
+
+                <label for="brinde" class="brinde"><input type="checkbox" checked>Receber pelo portal de transporte (qualquer problema no envio será de sua responsabilidade)</label>
+
+                <input type="submit" value="Enviar Pedido" class="enviar">
+
+                <fieldset>
+
+                    <legend>Época de funcionamento</legend>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Reino</th>
+                                <th>Estação</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Piltover</td>
+                                <td>Inverno</td>
+                            </tr>
+                            <tr>
+                                <td>Runeterra</td>
+                                <td>Primavera</td>
+                            </tr>
+                            <tr>
+                                <td>Shurima</td>
+                                <td>Verão</td>
+                            </tr>
+                            <tr>
+                                <td>Demacia</td>
+                                <td>Outono</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+        </main>
+
+
+
+        <footer>
+            <img src="logo.png" alt="Logo da Loja de Poções" class="logo-baixo">
+            <p>&copy; Copyright Loja de Poções</p>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,73 @@
+body{
+    font-family: 'Nerko One', cursive;
+}
+
+header{
+    background: #f1cb51;
+}
+
+.molduraE{
+    position: absolute;
+    left: 0%;
+}
+
+.molduraD{
+    position: absolute;
+    right: 0%;
+}
+
+.caixa{
+    padding: 20px;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img{
+    width: 20%;
+    transition: 1s;
+}
+
+.caixa img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+nav{
+    position: absolute;
+    right: 0%;
+    top: 100px;
+}
+
+nav li{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(105, 105, 105);
+}
+
+footer{
+    background: url(bg.jpg);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.logo-baixo{
+    width: 14%;
+}
+
+footer p{
+    color: #ffffff;
+    font-size: 12px;
+}
+
+

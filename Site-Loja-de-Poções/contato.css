@@ -1,0 +1,85 @@
+main{
+    background: rgb(33, 33, 33);
+}
+
+
+
+form{
+    width: 940px;
+    margin: 0px auto;
+    padding: 40px 0;
+}
+
+.escolha{
+    display: block;
+}
+
+.escolha, .concentracao, .brinde{
+    margin-bottom: 2em;
+    color: aliceblue;
+}
+
+textarea{
+    margin-bottom: 2em;
+    padding: 14px 16px;
+}
+
+label, form legend{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 2px;
+    color: aliceblue;
+    text-shadow: 10px 10px 10px black;
+}
+
+.primeiro input, .enviar{
+    margin-bottom: 1em;
+    width: 50%;
+    padding: 14px 16px;
+}
+
+input{
+    margin-bottom: 1em;
+}
+
+.escolha label{
+    font-size: 25px;
+    font-weight: lighter;
+    color: aliceblue;
+}
+
+.enviar{
+    background: rgb(175, 10, 175);
+    box-shadow: 10px 10px 10px black;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 10px;
+    margin-bottom: 3em;
+    transition: 400ms;
+}
+
+.enviar:hover{
+    background: rgb(207, 184, 10);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+table{
+    margin-top: 1em;
+    box-shadow: 10px 10px 10px;
+}
+
+th, td{
+    border: 1px solid white;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+th{
+    background: #4801a0;
+}
